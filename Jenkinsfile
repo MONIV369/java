@@ -1,7 +1,7 @@
 pipeline {
     agent any
  environment {
-        IMAGE_NAME = "MONIV369/heloo:v1"
+        IMAGE_NAME = "MONIV369/java:v1"
     }
 
     stages {
