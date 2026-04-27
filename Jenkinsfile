@@ -1,5 +1,8 @@
 pipeline {
     agent any
+ environment {
+        IMAGE_NAME = "MONIV369/heloo:v1"
+    }
 
     stages {
         stage('Compile') {
